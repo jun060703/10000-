@@ -121,9 +121,9 @@ body {
 }
 /* 버튼 공통 스타일 */
 button{
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     background-color:yellow;
     border: none;
@@ -161,7 +161,7 @@ button:active{
     bottom: -25px;
 }
 .start_btn:hover{
-    font-size: 20px;
+    font-size: 15px;
    color:blue;
 }
 .result_loading{
@@ -208,7 +208,21 @@ button:active{
 }
 .buttons .share button{
     background-color: #FFF;
-    margin-left: 20px;
+    align-items: center;
+}
+.share_btn{
+    margin: 50px;
+    height: 50px;
+    align-items: center;
+}
+.modal_btn{
+    margin: 50px;
+    height: 50px;
+    
+}
+.go{
+    display: flex;
+
 }
 #modal{
     position: fixed;
@@ -236,7 +250,7 @@ button:active{
     text-align: center;
 }
 #modal .cheer h1{
-    font-size: 80px;
+    font-size: 50px;
 }
 #modal .cheer h3{
     font-size: 30px;
@@ -264,4 +278,11 @@ button:active{
 #copyright{
     text-decoration: underline;
     text-align: center;
+}
+.close_btn{
+   margin: 20px;
+   height: 30px;
+}
+.close_btn{
+    font-size: small;
 }
